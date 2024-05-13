@@ -91,5 +91,9 @@ a:focus, a:hover, a:active {color:red}
 img {
     display: flex;
     justify-content: center;
-    size: 3rem;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin: 0.5rem auto;
 }

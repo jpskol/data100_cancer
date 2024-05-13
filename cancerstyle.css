@@ -92,3 +92,12 @@ a:focus, a:hover, a:active {color:red}
     padding: 1em;
 }
 
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    max-height: 500px;
+    margin: 0.5rem auto;
+}

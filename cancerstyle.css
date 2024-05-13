@@ -1,5 +1,5 @@
 html {
-    background-color: gray;
+    background-color: lightgrey;
     margin-left: 2em;
     margin-right: 2em;
     font-family: 'Times New Roman', Times, serif;
@@ -64,19 +64,32 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
+    display: block;
+    border: 3px solid;
+    border-radius: .5em;
+    border-color: slategray;
+    padding: 0.5em 1em;
+    margin: .5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link, a:visited {color: orange}
+a:link, a:visited {color: darkblue}
 a:focus, a:hover, a:active {color:red}
 
 .button {
     background-color: red;
     border-radius: 4px;
-    color: orange;
+    color: darkblue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-variant: small-caps;
     cursor: pointer;
     border: none;
     padding: 1em;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    size: 3rem;
 }
